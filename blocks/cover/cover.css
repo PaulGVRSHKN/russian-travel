@@ -17,8 +17,16 @@
     }
 }
 
+@media all and (max-width: 768px) {
+    .cover {
+        margin-top: 90px;
+    }
+}
+
 @media all and (max-width: 320px) {
     .cover {
         margin-top: 66px;
+        width: 320px;
+        height: 200px;
     }
 }

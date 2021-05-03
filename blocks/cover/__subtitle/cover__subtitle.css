@@ -1,7 +1,8 @@
 .cover__subtitle {
     color: white;
+    font-family: 'Inter';
     font-weight: 400;
-    font-size: 18px;
+    font-size: calc(14px + 4 * (100vw / 1280));
     line-height: 22px;
     margin: 32px auto 245px;
     text-align: center;
@@ -30,6 +31,6 @@
         margin: 0;
         font-size: 14px;
         line-height: 16px;
-        margin-bottom: 33px;
+        margin: 16px auto 33px;
     }
 }

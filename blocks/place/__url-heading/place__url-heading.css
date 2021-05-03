@@ -1,8 +1,10 @@
 .place__url-heading {
     color: #AAAAAA;
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
+    letter-spacing: 0.2em;
 }
 
 @media all and (max-width: 320px) {

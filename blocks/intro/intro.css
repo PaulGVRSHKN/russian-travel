@@ -18,12 +18,15 @@
     .intro {
         padding: 0;
         margin-left: 48px;
+        width: 690px;
+        height: 429px;
     }
 }
 
 @media all and (max-width: 768px) {
     .intro {
         width: calc(100% - 48px);
+        height: 100%;
         margin: 88px auto 0;
     }
 }

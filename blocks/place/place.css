@@ -1,12 +1,13 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);/*minmax(1fr, max-content) minmax(min-content, max-content);*/
+    grid-template-columns: minmax(225px, 1fr) 1fr;
     gap: 40px;
     grid-template-areas: 
         'title website'
-        'image paragraph'
-        'image .';
+        'image paragraph';
     margin: 40px 0 0;
+    padding: 0;
+    /*grid-auto-flow: dense;*/
 }
 
 .place:first-of-type {
@@ -26,10 +27,15 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 550px) {
     .place {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .place {
         margin-top: 50px;
         gap: 0;
     }
