@@ -1,6 +1,6 @@
 .place__paragraph {
     grid-area: paragraph;
-    margin: 0;
+    margin: 26px 0 0;
     padding: 0;
     align-self: flex-start;
     font-family: 'Inter';
@@ -9,16 +9,20 @@
     line-height: 29px;
 }
 
+.place__paragraph:first-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        margin-top: 27px;
+    }
+}
+
 @media all and (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
-    }
-}
-
-@media all and (max-width: 320px) {
-    .place__paragraph {
-        margin: 32px 16px 0;
-        height: fit-content;
+        margin-top: 25px;
     }
 }

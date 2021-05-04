@@ -2,7 +2,7 @@
     color: white;
     font-family: 'Inter';
     font-weight: 400;
-    font-size: calc(14px + 4 * (100vw / 1280));
+    font-size: 18px;
     line-height: 22px;
     margin: 32px auto 245px;
     text-align: center;
@@ -20,8 +20,9 @@
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .cover__subtitle {
+        font-size: (14px + 4 * (100vw / 1280));
         margin-bottom: 115px;
     }
 }

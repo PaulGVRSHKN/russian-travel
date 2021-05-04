@@ -2,7 +2,7 @@
     margin: 32px auto 0;
     font-family: 'Inter';
     font-weight: 400;
-    font-size: calc(16px + 14 * (100vw / 1280));
+    font-size: 30px;
     line-height: 36px;
     text-align: center;
 }
@@ -11,6 +11,12 @@
     .lead__subtitle {
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .lead__subtitle {
+        font-size: calc(16px + 14 * (100vw / 1280));
     }
 }
 
