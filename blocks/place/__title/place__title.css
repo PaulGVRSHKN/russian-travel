@@ -8,10 +8,21 @@
     max-width: 460px;
 }
 
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 440px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .place__title {
+        font-size: 42px;
+    }
+}
+
 @media all and (max-width: 768px) {
     .place__title {
         max-width: 340px;
-        font-size: 42px;
         line-height: 46px;
     }
 }
